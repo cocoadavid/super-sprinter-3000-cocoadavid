@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, redirect, url_for
 from models import *
 from init_database import InitDatabase
 
+
 app = Flask(__name__)
 
 @app.route('/', methods=['GET'])

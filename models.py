@@ -1,6 +1,7 @@
 from peewee import *
 from connect_database import ConnectDatabase
 
+
 class BaseModel(Model):
 
     class Meta:
